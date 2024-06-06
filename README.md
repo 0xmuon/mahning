@@ -1,30 +1,55 @@
 # mahning
 manhwa-reader-app/
 ├── android/
+
 ├── ios/
+
 ├── src/
+
 │   ├── assets/
+
 │   │   └── images/
+
 │   ├── components/
+
 │   │   ├── Button.js
+
 │   │   └── Card.js
+
 │   ├── screens/
+
 │   │   ├── HomeScreen.js
+
 │   │   ├── ReaderScreen.js
+
 │   │   └── LibraryScreen.js
+
 │   ├── services/
+
 │   │   ├── api.js
+
 │   │   └── storage.js
+
 │   ├── navigation/
+
 │   │   └── AppNavigator.js
+
 │   ├── styles/
+
 │   │   └── theme.js
+
 │   ├── App.js
+
 │   └── index.js
+
 ├── .gitignore
+
 ├── LICENSE
+
 ├── README.md
+
 ├── babel.config.js
+
 └── package.json
 
 
