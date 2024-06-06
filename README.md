@@ -1,4 +1,33 @@
 # mahning
+manhwa-reader-app/
+├── android/
+├── ios/
+├── src/
+│   ├── assets/
+│   │   └── images/
+│   ├── components/
+│   │   ├── Button.js
+│   │   └── Card.js
+│   ├── screens/
+│   │   ├── HomeScreen.js
+│   │   ├── ReaderScreen.js
+│   │   └── LibraryScreen.js
+│   ├── services/
+│   │   ├── api.js
+│   │   └── storage.js
+│   ├── navigation/
+│   │   └── AppNavigator.js
+│   ├── styles/
+│   │   └── theme.js
+│   ├── App.js
+│   └── index.js
+├── .gitignore
+├── LICENSE
+├── README.md
+├── babel.config.js
+└── package.json
+
+
 Table of Contents
 Introduction
 Features
@@ -58,25 +87,6 @@ Screenshots
 
 Contributing
 We welcome contributions from the community! To contribute to the Mahnwa Reader Android App:
-
-Fork the Repository:
-
-Visit the GitHub repository and fork the project.
-Clone the Repository:
-
-Clone your forked repository to your local machine using git clone <repository_url>.
-Create a Branch:
-
-Create a new branch for your feature or bugfix using git checkout -b <branch_name>.
-Make Your Changes:
-
-Implement your feature or bugfix and commit your changes with descriptive messages.
-Submit a Pull Request:
-
-Push your branch to your forked repository.
-Submit a pull request to the main repository with a detailed description of your changes.
-License
-This project is licensed under the MIT License. See the LICENSE file for more information.
 
 Contact
 For any questions, suggestions, or issues, please contact us at:
