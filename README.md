@@ -1,7 +1,6 @@
 # mahning
 manhwa-reader-app/
 ├── android/
-
 ├── ios/
 
 ├── src/
