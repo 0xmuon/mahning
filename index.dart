@@ -5,7 +5,6 @@ import 'package:http/http.dart' as http;
 void main() {
   runApp(BookReadingApp());
 }
-
 class BookReadingApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
@@ -18,20 +17,17 @@ class BookReadingApp extends StatelessWidget {
     );
   }
 }
-
 class Book {
   final String title;
   final String author;
   final String description;
   final String content;
-
   Book({
     required this.title,
     required this.author,
     required this.description,
     required this.content,
   });
-
   factory Book.fromJson(Map<String, dynamic> json) {
     return Book(
       title: json['title'],
@@ -41,7 +37,6 @@ class Book {
     );
   }
 }
-
 class BookService {
   static Future<List<Book>> fetchBooks() async {
     final response =
